@@ -11,7 +11,7 @@ const app = express();
 
 // CORS setup to allow requests from frontend running at http://localhost:5173
 const corsOptions = {
-  origin: 'http://localhost:5173',  // your React app URL
+  origin: 'https://real-estate-full-web-app-wtjd.vercel.app',  // your React app URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],  // allowed HTTP methods
   allowedHeaders: ['Content-Type', 'Authorization'],  // allowed headers
   credentials: true,  // Allow cookies to be sent with the requests
